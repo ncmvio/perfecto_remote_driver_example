@@ -1,4 +1,4 @@
-package com.perfecto.sampleproject;
+package example;
 import java.net.URL;
 
 import org.openqa.selenium.Platform;
@@ -9,8 +9,12 @@ import org.testng.annotations.Test;
 
 public class RemoteWebDriverTest {
 
+	
+	//Start selenium server from folder 'Selenium-Server'
 	@Test
 	public void runRemote() throws Exception {
+		
+		
 		String gridUrl = "http://192.168.0.102:4444";
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 

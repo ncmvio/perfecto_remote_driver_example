@@ -1,4 +1,4 @@
-package com.perfecto.sampleproject;
+package example;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;

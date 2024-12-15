@@ -1,4 +1,4 @@
-package com.perfecto.sampleproject;
+package example;
 
 import java.net.URL;
 import java.time.Duration;
