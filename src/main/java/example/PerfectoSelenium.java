@@ -4,16 +4,13 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Platform;
-import org.openqa.selenium.SessionNotCreatedException;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
-
 import com.perfecto.reportium.client.ReportiumClient;
 import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResult;
