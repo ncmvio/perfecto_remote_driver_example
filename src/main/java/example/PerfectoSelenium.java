@@ -56,15 +56,9 @@ public class PerfectoSelenium {
 		reportiumClient.stepEnd();
 		
 		reportiumClient.stepStart("Navigating to google.com");
-		((JavascriptExecutor) driver).executeScript("window.open()");
-		ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
-		driver.switchTo().window(tabs.get(1));
 		
-		// Navigate to a different URL in the new tab
 		driver.get("https://www.google.com");
 
-		// Switch back to the original tab
-		driver.switchTo().window(tabs.get(0));
 		reportiumClient.stepEnd();
 		Thread.sleep(Duration.ofSeconds(5));
 		reportiumClient.stepStart("Verify title");
